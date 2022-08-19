@@ -375,13 +375,15 @@ body {
     .hero__image-desktop-left {
         display: inline;
         position: absolute;
-        left: calc(-35vw)
+        left: calc(-35vw);
+        top: -25px;
     }
 
     .hero__image-desktop-right {
         display: inline;
         position: absolute;
-        right: calc(-35vw)
+        right: calc(-35vw);
+        top: 30px;
     }
 
     .hero__description {
