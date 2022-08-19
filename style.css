@@ -64,6 +64,7 @@ picture {
     --clr-primary-dark-blue: hsl(240, 21%, 20%);
 
     --clr-neutral-grey: hsl(240, 10%, 57%);
+    --clr-neutral-grey-light: hsl(240, 10%, 85%);
     --clr-neutral-white: hsl(0, 0%, 98%);
 
     --clr-hover-green: hsl(192, 54%, 64%);
@@ -196,8 +197,8 @@ body {
     height: 50px;
     border-radius: 50px;
     position: relative;
-    border: 1px solid var(--clr-neutral-grey);
-    background-color: var(--clr-neutral-white);
+    border: 1px solid var(--clr-neutral-grey-light);
+    background-color: white;
 }
 
 .circle__line {
@@ -206,7 +207,7 @@ body {
     width: 1px;
     left: 24px;
     bottom: 49px;
-    background-color: var(--clr-neutral-grey);
+    background-color: var(--clr-neutral-grey-light);
 
 }
 
@@ -254,6 +255,7 @@ body {
     font-size: var(--fs-body);
     font-weight: var(--fw-bold);
     line-height: var(--lh-description);
+    letter-spacing: 4px;
     text-transform: uppercase;
     color: var(--clr-primary-green);
 }
