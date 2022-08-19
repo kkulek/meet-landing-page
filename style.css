@@ -117,6 +117,10 @@ body {
     padding: 48px 0;
 }
 
+.hero__image-mobile {
+    padding-bottom: 48px;
+}
+
 .hero-container {
     max-width: 540px;
     padding: 24px;
@@ -133,6 +137,7 @@ body {
 }
 
 .hero__headline {
+    padding: 0 20px;
     font-size: var(--fs-headline-xl);
     font-weight: var(--fw-bold);
     line-height: var(--lh-headline-xl);
@@ -344,6 +349,10 @@ body {
 
     .about {
         padding-top: 168px;
+    }
+
+    .about__copy-headline {
+        padding: 24px 40px 32px 40px;
     }
 
     .about__gallery-img {
